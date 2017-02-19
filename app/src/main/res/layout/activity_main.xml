@@ -38,8 +38,7 @@
                 android:background="@drawable/seven"
                 android:text="7"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnSeven" />
+                android:textSize="30sp" />
 
             <Button
                 android:id="@+id/btnEight"
@@ -49,8 +48,7 @@
                 android:background="@drawable/eight"
                 android:text="8"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnEight" />
+                android:textSize="30sp" />
 
             <Button
                 android:id="@+id/btnNine"
@@ -60,8 +58,7 @@
                 android:background="@drawable/nine"
                 android:text="9"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnNine" />
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/btnDivide"
@@ -71,8 +68,7 @@
                 android:background="@drawable/divide"
                 android:text="/"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnDivide" />
+                android:textSize="30sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -88,8 +84,7 @@
                 android:background="@drawable/four"
                 android:text="4"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnFour" />
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/btnFive"
@@ -99,8 +94,7 @@
                 android:background="@drawable/five"
                 android:text="5"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnFive" />
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/btnSix"
@@ -110,8 +104,7 @@
                 android:background="@drawable/six"
                 android:text="6"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnSix" />
+                android:textSize="30sp"/>
 
 
             <Button
@@ -122,8 +115,7 @@
                 android:background="@drawable/multi"
                 android:text="*"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnMulti" />
+                android:textSize="30sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -139,8 +131,7 @@
                 android:background="@drawable/one"
                 android:text="1"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnOne" />
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/btnTwo"
@@ -150,8 +141,7 @@
                 android:background="@drawable/two"
                 android:text="2"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnTwo" />
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/btnThree"
@@ -161,8 +151,7 @@
                 android:background="@drawable/three"
                 android:text="3"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnThree" />
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/btnMinus"
@@ -172,8 +161,7 @@
                 android:background="@drawable/minus"
                 android:text="-"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnMinus" />
+                android:textSize="30sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -189,8 +177,7 @@
                 android:background="@drawable/dot"
                 android:text="."
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnDot" />
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/btnZero"
@@ -200,8 +187,7 @@
                 android:background="@drawable/zero"
                 android:text="0"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnZero" />
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/btnClear"
@@ -211,8 +197,7 @@
                 android:background="@drawable/on"
                 android:text="C"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnClear" />
+                android:textSize="30sp"/>
 
             <Button
                 android:id="@+id/btnPlus"
@@ -222,8 +207,7 @@
                 android:background="@drawable/plus"
                 android:text="+"
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnPlus" />
+                android:textSize="30sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -239,16 +223,14 @@
                 android:background="@drawable/equal"
                 android:text="="
                 android:textColor="@android:color/transparent"
-                android:textSize="30sp"
-                android:onClick="btnEqual" />
+                android:textSize="30sp"/>
 
         </LinearLayout>
 
         <TextView
             android:id="@+id/textViewS"
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:inputType="numberDecimal" />
+            android:layout_height="0dp"/>
     </LinearLayout>
 
 </RelativeLayout>
